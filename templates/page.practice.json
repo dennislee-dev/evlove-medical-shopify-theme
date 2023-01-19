@@ -1,0 +1,134 @@
+{
+  "sections": {
+    "1658506325a7065d8d": {
+      "type": "rich-text",
+      "blocks": {
+        "1658506325b26b5f74-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Build your practice with us!"
+          }
+        }
+      },
+      "block_order": [
+        "1658506325b26b5f74-0"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "2",
+        "divider": false
+      }
+    },
+    "1658426105f92b7082": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/photo_edits_8.png",
+        "image_width": 500,
+        "subtitle": "",
+        "title": "The health and beauty industry is fast-paced, ever-evolving and highly competitive.",
+        "text": "<p>At Evolve Cosmetics, we recognize that skincare practices can face a number of challenges on a daily basis. Practioners have to balance client service, day-to-day operations, marketing, product inventory and so much more, all while also working to expand their practice. Evolve is here to help so that you don’t have to do this alone.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16585403535eed1143": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-max-vakhtbovych-6899554.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Consider the following...",
+        "text": "<p>Is there untapped potential in your business?<\/p><p>Do your staff require more advanced consultant training?<\/p><p>Is there a way you could increase your closing ratios?<\/p><p>Do you want to continue to grow a loyal client base?<\/p><p>If you answered <strong>YES <\/strong>to any of these questions, Evolve has the expertise and experience to help. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "2",
+        "divider": false
+      }
+    },
+    "1658540840ed18dda8": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Evolve wants to help you grow your practice.",
+        "text": "<p>The accredited team at Evolve boasts a diverse portfolio of experience and knowledge. Considered experts and authorities on skincare and beauty, the team at Evolve can help you grow your practice, overcome the overwhelm and reach for success with a proven process for practice growth.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "165854095018b70fd6": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/photo_edits_9.png",
+        "image_width": 500,
+        "subtitle": "",
+        "title": "Do you know if your practice is on track for growth and expansion?",
+        "text": "<p>The Unique Practice Process (UPP) created by Evolve Cosmetics founder,<br\/>Sharon Clarke, shows you how to close the gap between your current practice and your dream practice. The UPP is derived from over 30 years of experience in the industry, utilizing the best practices to provide proven recommendations and strategies for growth. <\/p><p>To further this experience, we employ the Kolbe® System: an assessment tool that measures an individual’s natural instinct to perform in a particular situation. This tool is crucial when identifying the right person for each job wihtin your practice and is effective in facilitating a stress-free work environment. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "1658541002f0e4b3ed": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_328a3e0e-dae6-4252-b3f2-3d134d3e1f61.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Evolve Cosmetics can help your practice by...",
+        "text": "<p>Creating a Vision and Mission Statement that reflect the future of your practice<\/p><p>Establishing your practice’s goals and a plan of actionable steps on how to achieve them<\/p><p>Providing a fresh set of eyes to identify what might be holding you back from your goals<\/p><p>Offering an innovative approach to the Unique Practice Process (UPP) of your establishment<\/p><p>Equipping your team with the training necessary to grow loyal clientele and boost product sales<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "2",
+        "divider": false
+      }
+    },
+    "165854110573c62226": {
+      "type": "contact-form",
+      "settings": {
+        "title": "",
+        "text": "<p><strong>If your skincare practice or spa would like to hear more about how Evolve Cosmetics can help you grow, fill out the form below and one of our trusted team members will be in touch.<\/strong><\/p>",
+        "show_phone": true,
+        "narrow_column": true,
+        "color_scheme": "1"
+      }
+    }
+  },
+  "order": [
+    "1658506325a7065d8d",
+    "1658426105f92b7082",
+    "main",
+    "16585403535eed1143",
+    "1658540840ed18dda8",
+    "165854095018b70fd6",
+    "1658541002f0e4b3ed",
+    "165854110573c62226"
+  ]
+}

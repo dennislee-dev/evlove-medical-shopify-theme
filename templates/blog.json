@@ -1,0 +1,113 @@
+{
+  "sections": {
+    "165842670150f3c369": {
+      "type": "rich-text",
+      "blocks": {
+        "16584267016bd8a745-0": {
+          "type": "heading",
+          "settings": {
+            "title": "You and your skin deserve the best!"
+          }
+        },
+        "16584267016bd8a745-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>We mean it. Here you can find  exclusive access to the latest in skin health and beauty news.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16584267016bd8a745-0",
+        "16584267016bd8a745-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "16585078310f4ac03e": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "",
+        "blog": "healthy-minds-club",
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "square",
+        "divider": false
+      }
+    },
+    "main": {
+      "type": "blog-template",
+      "disabled": true,
+      "settings": {
+        "blog_show_rss": false,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "square"
+      }
+    },
+    "sidebar": {
+      "type": "blog-sidebar",
+      "disabled": true,
+      "settings": {}
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection1": {
+          "type": "collection",
+          "settings": {
+            "collection": "evolve-cosmetics",
+            "title": ""
+          }
+        },
+        "collection2": {
+          "type": "collection",
+          "settings": {
+            "collection": "skinbetter",
+            "title": ""
+          }
+        },
+        "collection3": {
+          "type": "collection",
+          "settings": {
+            "collection": "base-of-sweden",
+            "title": ""
+          }
+        },
+        "collection4": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection1",
+        "collection2",
+        "collection3",
+        "collection4"
+      ],
+      "settings": {
+        "title": "Discover Our Collections",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "165842670150f3c369",
+    "16585078310f4ac03e",
+    "main",
+    "sidebar",
+    "featured-collections"
+  ],
+  "wrapper": "div.page-width.page-content.blog-layout"
+}

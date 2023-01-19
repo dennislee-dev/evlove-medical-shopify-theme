@@ -1,0 +1,56 @@
+{
+  "sections": {
+    "main": {
+      "type": "list-collections-template",
+      "blocks": {
+        "8c529192-bf95-4402-ad52-4521f65e27ff": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "skincare"
+          }
+        },
+        "c1673f60-19fd-4295-a8e2-2ada204691fc": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "makeup"
+          }
+        },
+        "cc9235bf-177f-4008-b727-b2c61d701c04": {
+          "type": "collection",
+          "settings": {
+            "collection": "evolve-cosmetics"
+          }
+        },
+        "bef34cbb-d323-4e8e-b202-7361029924bb": {
+          "type": "collection",
+          "settings": {
+            "collection": "skinbetter"
+          }
+        },
+        "58ef61c0-cf4f-485b-aa52-857b09b82e22": {
+          "type": "collection",
+          "settings": {
+            "collection": "base-of-sweden"
+          }
+        }
+      },
+      "block_order": [
+        "8c529192-bf95-4402-ad52-4521f65e27ff",
+        "c1673f60-19fd-4295-a8e2-2ada204691fc",
+        "cc9235bf-177f-4008-b727-b2c61d701c04",
+        "bef34cbb-d323-4e8e-b202-7361029924bb",
+        "58ef61c0-cf4f-485b-aa52-857b09b82e22"
+      ],
+      "settings": {
+        "title_enable": true,
+        "display_type": "selected",
+        "sort": "alphabetical"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

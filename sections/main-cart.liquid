@@ -1,0 +1,137 @@
+<div class="page-width page-width--cart page-content">
+
+  {%- render 'breadcrumbs' -%}
+
+  <header class="section-header text-center{% if cart.item_count == 0 %} section-header--404{% endif %}">
+    <h1 class="section-header__title">{{ 'cart.general.title' | t }}</h1>
+    <div class="rte text-spacing">
+      {%- if cart.item_count == 0 -%}
+        <p>{{ 'cart.general.empty' | t }}</p>
+        <hr class="hr--clear hr--small">
+        <p>
+          <a href="{{ routes.root_url }}" class="btn">{{ 'cart.general.continue_shopping' | t }}</a>
+        </p>
+      {%- endif -%}
+    </div>
+  </header>
+
+  {%- if cart.item_count > 0 -%}
+    <form action="{{ routes.cart_url }}" method="post" novalidate data-location="page" id="CartPageForm">
+      <div class="cart__page">
+        <div class="cart__page-col">
+          <div data-products>
+            {% assign skin_better = false %}
+            {% for item in cart.items %}
+              <script>console.log({{item | json}})</script>
+              {% if item.vendor contains "skinbetter science®" %}
+                {% assign skin_better = true %}
+              {% endif %}
+              {%- render 'cart-item', product: item -%}
+            {% endfor %}
+          </div>
+
+          {%- render 'cart-recommendations', location: 'page' -%}
+        </div>
+        <div class="cart__page-col">
+          {% if settings.cart_notes_enable %}
+            <div class="cart__item-row">
+              <label for="CartNote" class="add-note">
+                {{ 'cart.general.note' | t }}
+                <span class="note-icon note-icon--open" aria-hidden="true">
+                  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-pencil" viewBox="0 0 64 64"><defs><style>.cls-1,.cls-2{fill:none;stroke:#000;stroke-width:2px}.cls-1{stroke-miterlimit:10}</style></defs><path class="cls-1" d="M52 33.96V58H8V14h23.7"/><path class="cls-1" d="M18 47l13-5 24-24-8-8-24 24-5 13zM23 34l8 8"/><path id="svg_2" data-name="svg 2" class="cls-2" d="M47 10l1-1a5.44 5.44 0 0 1 7.82.18A5.52 5.52 0 0 1 56 17l-1 1"/></svg>
+                </span>
+                <span class="note-icon note-icon--close">
+                  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:2px}</style></defs><path class="cls-1" d="M19 17.61l27.12 27.13m0-27.13L19 44.74"/></svg>
+                  <span class="icon__fallback-text">{{ 'general.accessibility.close' | t }}</span>
+                </span>
+              </label>
+              <textarea name="note" class="input-full cart__note hide" id="CartNote">{{ cart.note }}</textarea>
+            </div>
+          {% endif %}
+
+{% if skin_better %}
+  <!-- goaffpro picker display -->
+  <select id="goaffpro-picker"></select>
+
+  <!-- goaffpro picker script -->
+  <script type="text/javascript">
+  // goaffpro picker config
+  window.GoaffproAffiliatePicker = {
+  token:'a9cd77bdbc616ce9f8146626b496fcf1613196cd52cc87bf662b55dd6cd40edb', //required
+  key:'name', //optional
+  }
+
+  !function(e){var o={};function t(n){if(o[n])return o[n].exports;var r=o[n]={i:n,l:!1,exports:{}};return e[n].call(r.exports,r,r.exports,t),r.l=!0,r.exports}t.m=e,t.c=o,t.d=function(e,o,n){t.o(e,o)||Object.defineProperty(e,o,{enumerable:!0,get:n})},t.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},t.t=function(e,o){if(1&o&&(e=t(e)),8&o)return e;if(4&o&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(t.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&o&&"string"!=typeof e)for(var r in e)t.d(n,r,function(o){return e[o]}.bind(null,r));return n},t.n=function(e){var o=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(o,"a",o),o},t.o=function(e,o){return Object.prototype.hasOwnProperty.call(e,o)},t.p="",t(t.s=0)}([function(e,o,t){e.exports=t(1)},function(e,o,t){const n=t(2);(async function(){const e=document.querySelector("#goaffpro-picker");if(e.onchange=function(e){var o=e.target.value;"undefined"!=typeof setCookie?setCookie("ref",o):n.setCookie("ref",o);const t=new CustomEvent("goaffpro-ref-cookie",{detail:o});window.dispatchEvent(t)},!e.hasChildNodes()&&"undefined"!=typeof GoaffproAffiliatePicker&&GoaffproAffiliatePicker.token){const{key:t,group_id:n,token:r,fallback:i}=GoaffproAffiliatePicker;console.log(t,n,r);const a={};t&&(a.key=t),i&&(a.fallback=i),n&&(a.group_id=n);var o="https://api.goaffpro.com/v1/sdk/affiliates?"+new URLSearchParams(a);const{affiliates:f}=await fetch(o,{headers:{"x-goaffpro-public-token":r}}).then(e=>e.json()),c=document.createElement("option");c.value="72",  c.innerText="Skinbetter Physician",e.appendChild(c);for(const o of f){if(o.ref_code != 72){const t=document.createElement("option"); t.value=o.ref_code,t.innerText=o.name||o.label,e.appendChild(t)}}}e.value="72"})().then(e=>console.log("loaded"))},function(e,o){function t(e){for(var o=e+"=",t=decodeURIComponent(document.cookie).split(";"),n=0;n<t.length;n++){for(var r=t[n];" "==r.charAt(0);)r=r.substring(1);if(0==r.indexOf(o))return r.substring(o.length,r.length)}return""}e.exports={getCookie:t,setCookie:function(e,o){var n=window.__goaffpro&&window.__goaffpro.cookie_duration>-1?window.__goaffpro.cookie_duration:604800,r="";n&&(r="; expires="+new Date((new Date).getTime()+1e3*n).toUTCString()+";");var i=location.host,a=i.split(".");if(1===a.length)document.cookie=e+"="+o+r+"; path=/";else{a.shift();var f="."+a.join(".");document.cookie=e+"="+o+r+"path=/; domain="+f,!t(e)!==o&&(f="."+i,document.cookie=e+"="+o+r+"path=/; domain="+f)}},deleteCookie:function(e){document.cookie=e+"=; path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;"}}}]);
+  </script>
+{% endif %}
+          
+
+
+          <div class="cart__item-sub cart__item-row cart__item--subtotal">
+            <div>{{ 'cart.general.subtotal' | t }}</div>
+            <div data-subtotal>
+              {%- render 'price' with cart.total_price -%}
+            </div>
+          </div>
+
+          <div data-discounts>
+            {% if cart.cart_level_discount_applications != blank %}
+              <div class="cart__discounts text-right">
+                <div>
+                  {% for cart_discount in cart.cart_level_discount_applications %}
+                    {%- assign savings = cart_discount.total_allocated_amount | money -%}
+                    <div class="cart__discount">
+                      {{ 'cart.general.savings_html' | t: saved_amount: savings }}
+                      ({{ cart_discount.title }})
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+            {% endif %}
+          </div>
+
+          {% if settings.cart_terms_conditions_enable %}
+            <div class="cart__item-row cart__terms">
+              <input type="checkbox" id="CartTerms" class="cart__terms-checkbox">
+              <label for="CartTerms" class="text-label">
+                <small>
+                  {% if settings.cart_terms_conditions_page != blank %}
+                    {{ 'cart.general.terms_html' | t: url: settings.cart_terms_conditions_page.url }}
+                  {% else %}
+                    {{ 'cart.general.terms' | t }}
+                  {% endif %}
+                </small>
+              </label>
+            </div>
+          {% endif %}
+
+          <div class="cart__item-row cart__checkout-wrapper">
+            <button type="submit" name="checkout" data-terms-required="{{ settings.cart_terms_conditions_enable }}" class="btn cart__checkout">
+              {{ 'cart.general.checkout' | t }}
+            </button>
+
+            {% if additional_checkout_buttons and settings.cart_additional_buttons %}
+              <div class="additional-checkout-buttons">{{ content_for_additional_checkout_buttons }}</div>
+            {% endif %}
+
+            <a href="{{ routes.all_products_collection_url }}" class="btn btn--secondary cart__continue">
+              {{ 'cart.general.continue_shopping' | t }}
+            </a>
+          </div>
+
+          <div class="cart__item-row text-center">
+            <small>{{ 'cart.general.shipping_at_checkout' | t }}</small>
+          </div>
+        </div>
+      </div>
+    </form>
+  {%- endif -%}
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.main-cart.name"
+}
+{% endschema %}
+
+{% render 'cross-sell' %}

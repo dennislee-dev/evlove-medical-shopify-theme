@@ -1,0 +1,412 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "8e105773-f2dc-4fa6-8252-65eb7dd263a5": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Enhance Your Eyes<\/p>",
+            "text_color": "#000000",
+            "title_size": 62,
+            "subheading": "Relieve the look of under-eye puffiness.",
+            "link": "shopify:\/\/products\/interfuse®-treatment-cream-eye",
+            "link_text": "Shop InterFuse® Eye",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Add_a_heading_4_copy.png",
+            "image_mobile": "shopify:\/\/shop_images\/2_de640d5f-b881-4daf-adda-4765ef1b6f5f.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "befcffc5-78b1-4b8c-b8d0-14bcacc0d211": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>The Base Primer<\/p>",
+            "text_color": "#000000",
+            "title_size": 56,
+            "subheading": "Enhance your natural glow.",
+            "link": "",
+            "link_text": "",
+            "link_2": "https:\/\/www.evolvecosmetics.ca\/collections\/award-winners\/products\/the-base-primer?ose=false",
+            "link_text_2": "Shop Base Primer",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Add_a_heading_9_copy_5.png",
+            "image_mobile": "shopify:\/\/shop_images\/Add_a_heading_800_x_1200_px.png",
+            "overlay_opacity": 0,
+            "focal_point": "bottom center"
+          }
+        },
+        "slideshow-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Hello, Summer<\/p>",
+            "text_color": "#000000",
+            "title_size": 48,
+            "subheading": "Lock in your summer look with our Evolve All Day Makeup Finishing spray.",
+            "link": "shopify:\/\/products\/evolve-all-day-spray",
+            "link_text": "Shop Now",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Banner_-_Landscape_-_Summer_Sale_-_50_Off_7.png",
+            "image_mobile": "shopify:\/\/shop_images\/Add_a_heading_8.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "slideshow-1": {
+          "type": "hero",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "<p><strong>Empowering Women to Embrace Their Beauty At Every Age<\/strong><\/p>",
+            "text_color": "",
+            "title_size": 40,
+            "subheading": "We provide the best possible skincare and cosmetic products and solutions for the needs of evolving skin.",
+            "link": "shopify:\/\/collections\/all",
+            "link_text": "Shop Now",
+            "link_2": "shopify:\/\/collections\/skinbetter",
+            "link_text_2": "Shop skinbetter science®",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/8_47ad1697-7f59-45b7-9a14-a8054ef69634.png",
+            "image_mobile": "shopify:\/\/shop_images\/8_7b2ac590-acac-48f7-8305-4cd56e57d40f.png",
+            "overlay_opacity": 0,
+            "focal_point": "80% 50%"
+          }
+        }
+      },
+      "block_order": [
+        "8e105773-f2dc-4fa6-8252-65eb7dd263a5",
+        "befcffc5-78b1-4b8c-b8d0-14bcacc0d211",
+        "slideshow-0",
+        "slideshow-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": -10,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "featured-collection2": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Get the Summer Glow",
+        "home_featured_products": "featured",
+        "count": 4,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "1658845108eddc2481": {
+      "type": "slideshow",
+      "blocks": {
+        "16588451083a6a0266-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "customer favourite",
+            "title": "<p>Refresh Your Skin<\/p>",
+            "text_color": "#000000",
+            "title_size": 52,
+            "subheading": "Our Alto Defence Serum promotes an even skin tone, enhances skin’s vitality and radiance",
+            "link": "shopify:\/\/products\/alto-defense-serum™-30ml",
+            "link_text": "Shop Alto Serum",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-07-26T101512.508.png",
+            "image_mobile": "shopify:\/\/shop_images\/Add_a_heading_5.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16588451083a6a0266-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "desktop_size": 0,
+        "mobile_size": 10,
+        "style": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "16595393172cc2d5d9": {
+      "type": "text-columns",
+      "disabled": true,
+      "blocks": {
+        "1659539317e239f4d9-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "Book a Consult",
+            "text": "<p>Get a skincare and cosmetics consult with Evolve Cosmetics.<\/p>",
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/pages\/consult"
+          }
+        },
+        "1659539317e239f4d9-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "Build your Practice",
+            "text": "<p>Build your practice with Evolve Cosmetics.<\/p>",
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/pages\/practice"
+          }
+        },
+        "1659539317e239f4d9-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "Become a Brand Partner",
+            "text": "<p>Partnering with Evolve Cosmetics might just be the best decision you make!<\/p>",
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/pages\/partner"
+          }
+        }
+      },
+      "block_order": [
+        "1659539317e239f4d9-0",
+        "1659539317e239f4d9-1",
+        "1659539317e239f4d9-2"
+      ],
+      "settings": {
+        "title": "Want to know more?",
+        "align_text": "center",
+        "divider": false,
+        "color_scheme": "1"
+      }
+    },
+    "16426037678005f597": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Award Winners & Best Sellers",
+        "home_featured_products": "award-winners",
+        "count": 4,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "1658807480cfc03d02": {
+      "type": "text-columns",
+      "blocks": {
+        "165880748027564aad-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/7_8570ec0e-01d1-4464-b98d-d14303d93a35.png",
+            "image_width": 420,
+            "title": "Anti-Aging",
+            "text": "<p>Let your skin age backwards.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/anti-aging"
+          }
+        },
+        "165880748027564aad-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2_bb79931a-3e59-42d8-9362-f60bb776cfe1.png",
+            "image_width": 420,
+            "title": "Dry Skin",
+            "text": "<p>Show off your glowy and dewy skin.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/skin-dryness"
+          }
+        },
+        "165880748027564aad-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/3_da503738-bcb8-4720-ae86-2fcae364bc4e.png",
+            "image_width": 420,
+            "title": "Fine Lines & Wrinkles",
+            "text": "<p>Help your skin bounce back.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/fine-lines-wrinkles"
+          }
+        }
+      },
+      "block_order": [
+        "165880748027564aad-2",
+        "165880748027564aad-1",
+        "165880748027564aad-0"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    },
+    "16425467458e4466dd": {
+      "type": "testimonials",
+      "disabled": true,
+      "blocks": {
+        "164254674585cc4a76-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>This is THE best moisturizing cream I have ever used. My skin feels moisturized, balanced, and not overly oily (which can often happen with other creams). It absorbs so nicely and feels lightweight. My skin looks amazing after using this. I will continue to purchase it. <\/p>",
+            "author": "Jenny H.",
+            "author_info": "skinbetter science customer"
+          }
+        },
+        "164254674585cc4a76-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>I was hesitant at first to purchase because of the price but I am so happy I choose to invest in my skin, it has never looked so bright and healthy since starting to use Oxygen Wash, Even Tone, Alto and Techno. I struggled with acne and tried everything to help clear my skin, I noticed an immediate difference in the texture, tone and amount of active breakouts.. these products are amazing! <\/p>",
+            "author": "Brandie O.",
+            "author_info": "skinbetter science customer"
+          }
+        },
+        "164254674585cc4a76-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Every single product from skinbetter has drastically improved the tone and texture of my skin. Before using their products, I thought I had good skin, but was I ever surprised. 3+ months of using their products now has left my skin with a glow and vibrancy I didn't realize was possible. Even more, my blemishes, sun damage and scars are all reduced, too.<\/p>",
+            "author": "Tracey T.",
+            "author_info": "skinbetter science customer"
+          }
+        },
+        "164254674585cc4a76-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Indeed a holy grail hydrator!!   My skin feels nourished and moist yet not oily.  Hoping that travel sizes will be offered in the near future for those of us on the go :)<\/p>",
+            "author": "Tanya E.",
+            "author_info": "skinbetter science customer"
+          }
+        },
+        "164254674585cc4a76-4": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>HAVING ACNE AND MELASMA I WAS VERY HESITANT TO ADD A NEW BOTANICAL BRIGHTENER INTO MY REGIMEN. TO MY SURPRISE, EVEN DIMINISHED MY MELASMA AND PIGMENTATION MORE THAN ANY OTHER MEDICAL GRADE SKINCARE PRODUCT IN A FEW WEEKS. DURING MY BREAK FROM HYDROQUINONE, IT’S MY GO-TO BOTANICAL BRIGHTENER TO KEEP MY SKIN LOOKING FRESH AND CONFIDENT!<\/p>",
+            "author": "ASHLEY",
+            "author_info": "TORONTO, ON"
+          }
+        }
+      },
+      "block_order": [
+        "164254674585cc4a76-0",
+        "164254674585cc4a76-1",
+        "164254674585cc4a76-2",
+        "164254674585cc4a76-3",
+        "164254674585cc4a76-4"
+      ],
+      "settings": {
+        "title": "Don't take our word for it",
+        "align_text": "center",
+        "round_images": true,
+        "color_scheme": "1"
+      }
+    },
+    "1642604278a4105efe": {
+      "type": "slideshow-split",
+      "disabled": true,
+      "blocks": {
+        "1642604278aea4d9b5-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "Evolve Cosmetics",
+            "title": "We'll help you grow",
+            "title_size": 51,
+            "subheading": "We offer industry-proven insights and strategies to develop and grow medical practices & spas that can be measured and monetized with an exit.",
+            "link": "shopify:\/\/pages\/services",
+            "link_text": "Learn More",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "image": "shopify:\/\/shop_images\/9116abb3-d525-4331-af22-9036c54780ca.jpg",
+            "indent_image": false,
+            "focal_point": "80% 50%",
+            "color_scheme": "none"
+          }
+        }
+      },
+      "block_order": [
+        "1642604278aea4d9b5-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "height": 650,
+        "height_mobile": 450,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "16596329361ac33c83": {
+      "type": "slideshow",
+      "blocks": {
+        "16596329362e0926d4-1": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "Evolve Cosmetics",
+            "title": "<p>We'll help you grow<\/p>",
+            "text_color": "#0f0f0f",
+            "title_size": 50,
+            "subheading": "We offer industry-proven insights and strategies to develop and grow medical practices & spas that can be measured and monetized with an exit.",
+            "link": "shopify:\/\/pages\/services",
+            "link_text": "Learn More",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#0f0f0f",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Add_a_heading_9.png",
+            "image_mobile": "shopify:\/\/shop_images\/Add_a_heading_9_copy.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16596329362e0926d4-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "desktop_size": 0,
+        "mobile_size": 30,
+        "style": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "featured-collection2",
+    "1658845108eddc2481",
+    "16595393172cc2d5d9",
+    "16426037678005f597",
+    "1658807480cfc03d02",
+    "16425467458e4466dd",
+    "1642604278a4105efe",
+    "16596329361ac33c83"
+  ]
+}
